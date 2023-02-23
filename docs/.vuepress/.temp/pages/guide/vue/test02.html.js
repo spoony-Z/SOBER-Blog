@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-0825ddd0\",\"path\":\"/guide/vue/test02.html\",\"title\":\"2222222222222222222222\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"guide/vue/test02.md\"}")

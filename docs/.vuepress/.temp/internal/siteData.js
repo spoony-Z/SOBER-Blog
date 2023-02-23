@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/SOBER-Blog/\",\"lang\":\"zh-CN\",\"title\":\"SOBER\",\"description\":\"发到付加防腐剂附加费减肥减肥减肥减肥减肥就\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"\"}]],\"locales\":{}}")

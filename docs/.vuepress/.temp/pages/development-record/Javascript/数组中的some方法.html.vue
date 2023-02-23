@@ -1,0 +1,17 @@
+<template><div><h2 id="数组中的-some-方法" tabindex="-1"><a class="header-anchor" href="#数组中的-some-方法" aria-hidden="true">#</a> 数组中的 some 方法</h2>
+<h3 id="使用场景" tabindex="-1"><a class="header-anchor" href="#使用场景" aria-hidden="true">#</a> <strong>使用场景</strong> ：</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>      <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">11</span><span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">]</span>
+      arr<span class="token punctuation">.</span><span class="token function">some</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">value<span class="token punctuation">,</span> index<span class="token punctuation">,</span> arr</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token comment">// console.log(value, index, arr);</span>
+        <span class="token comment">// 1 0 (12) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]</span>
+        <span class="token comment">// 2 1 (12) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]</span>
+        <span class="token comment">// 3 2 (12) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]</span>
+        <span class="token comment">// 4 3 (12) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]</span>
+        <span class="token comment">// ......</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token comment">// 数组中若满足条件，返回 true 且只返回一次</span>
+    arr<span class="token punctuation">.</span><span class="token function">some</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token operator">=></span> value <span class="token operator">></span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+    
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

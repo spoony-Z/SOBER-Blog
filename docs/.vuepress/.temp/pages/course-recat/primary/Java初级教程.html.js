@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-6a0bc427\",\"path\":\"/course-recat/primary/Java%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html\",\"title\":\"暂无 Java 初级教程\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"course-recat/primary/Java初级教程.md\"}")
