@@ -1,5 +1,4 @@
 <template><div><h1 id="成为一个更好的java程序员" tabindex="-1"><a class="header-anchor" href="#成为一个更好的java程序员" aria-hidden="true">#</a> 成为一个更好的Java程序员</h1>
-<p>这是一个成为更好的 <code v-pre>Java 程序员</code>的系列教程（微信搜索：程序员cxuan）</p>
 <blockquote>
 <p>声明：这是完全手写的仓库，不严谨的地方请提出 ISSUE 或者 PR，作者会及时处理。</p>
 <p>此项目无法和 Dubbo 等开源框架相提并论，请读者不要盲目崇拜，此项目只是作者近来的读书、学习笔记总结。</p>

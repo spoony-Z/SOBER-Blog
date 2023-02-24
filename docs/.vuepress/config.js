@@ -1,12 +1,12 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 // import plugins from './config/plugins'
-import developmentRecord from './sidebar/development-record' /** 开发记录 */
-import vueTemplateList from './sidebar/vue-template-list' /** vue后台模板合集 */
-import courseJava from './sidebar/course-java' /** java教程 */
-import courseVue2 from './sidebar/course-vue2' /** vue2教程 */
-import courseJavaScript from './sidebar/course-javaScript' /** javaScript教程 */
-import ToolInstallation from './sidebar/Tool-installation' /** 工具 */
-import npmPlugIn from './sidebar/npm-plugIn' /** npm插件 */
+import developmentRecord from './config/sidebar/development-record' /** 开发记录 */
+import vueTemplateList from './config/sidebar/vue-template-list' /** vue后台模板合集 */
+import courseJava from './config/sidebar/course-java' /** java教程 */
+import courseVue2 from './config/sidebar/course-vue2' /** vue2教程 */
+import courseJavaScript from './config/sidebar/course-javaScript' /** javaScript教程 */
+import ToolInstallation from './config/sidebar/Tool-installation' /** 工具 */
+import npmPlugIn from './config/sidebar/npm-plugIn' /** npm插件 */
 
 
 export default defineUserConfig({
@@ -29,16 +29,16 @@ export default defineUserConfig({
                 text: '开发笔记',
                 link: '/development-record/vue2/1.Vue依赖注入 - Provide  Inject.md',
             },
-            // {
-            //     text: '完整教程',
-            //     children: [
-            //         { text: 'vue2 教程', link: '/course-vue2/primary/vue2初级教程.md' },
-            //         { text: 'recat 教程', link: '/complete-tutorial/recat' },
-            //         { text: 'uni-app 教程', link: '/complete-tutorial/uniapp' },
-            //         { text: 'Javascript 教程', link: '/course-javaScript/primary/javaScript初级教程.md' },
-            //         { text: 'Java 教程', link: '/course-java/primary/Java初级教程.md' },
-            //     ],
-            // },
+            {
+                text: '完整教程',
+                children: [
+                    // { text: 'vue2 教程', link: '/course-vue2/primary/vue2初级教程.md' },
+                    // { text: 'recat 教程', link: '/complete-tutorial/recat' },
+                    // { text: 'uni-app 教程', link: '/complete-tutorial/uniapp' },
+                    // { text: 'Javascript 教程', link: '/course-javaScript/primary/javaScript初级教程.md' },
+                    { text: 'Java 学习笔记', link: '/course-java/primary/' },
+                ],
+            },
             {
                 text: 'vue模板合集',
                 link: '/vue-template-list/fantastic-admin.md',
