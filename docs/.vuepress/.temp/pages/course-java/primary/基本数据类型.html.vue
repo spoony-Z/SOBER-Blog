@@ -1,0 +1,182 @@
+<template><div><h2 id="数据类型" tabindex="-1"><a class="header-anchor" href="#数据类型" aria-hidden="true">#</a> 数据类型</h2>
+<h5 id="java的基本数据类型总共有-8-种-包括三类-数值型-字符型-布尔型" tabindex="-1"><a class="header-anchor" href="#java的基本数据类型总共有-8-种-包括三类-数值型-字符型-布尔型" aria-hidden="true">#</a> Java的基本数据类型总共有 <strong>8</strong> 种，包括三类：数值型，字符型，布尔型</h5>
+<p><img src="@source/course-java/primary/image/7.png" alt="image-20230224003002648"></p>
+<h3 id="一、整数类型-byte、short、int、long" tabindex="-1"><a class="header-anchor" href="#一、整数类型-byte、short、int、long" aria-hidden="true">#</a> 一、整数类型<span style="color: var(--c-text-accent)">（byte、short、int、long）</span></h3>
+<h4 id="基本介绍" tabindex="-1"><a class="header-anchor" href="#基本介绍" aria-hidden="true">#</a> 基本介绍</h4>
+<p>​	Java 的<strong>整数类型</strong>就是用于存放<strong>整数值</strong>的，比如：12，30，3456等等</p>
+<h4 id="示例图" tabindex="-1"><a class="header-anchor" href="#示例图" aria-hidden="true">#</a> 示例图</h4>
+<p><img src="@source/course-java/primary/image/8.png" alt="image-20230224003002648"></p>
+<h4 id="案例演示" tabindex="-1"><a class="header-anchor" href="#案例演示" aria-hidden="true">#</a> 案例演示</h4>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Var02</span> <span class="token punctuation">{</span>
+<span class="token comment">//编写一个main方法</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>string<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//记录人的信息</span>
+        <span class="token keyword">int</span> age  <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">;</span>
+	    <span class="token keyword">char</span> gender <span class="token operator">=</span><span class="token char">'男'</span><span class="token punctuation">;</span>
+        <span class="token class-name">String</span> name <span class="token operator">=</span> <span class="token string">"king"</span><span class="token punctuation">;</span>
+		<span class="token comment">//输出信息，快捷键</span>
+		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"人的信息如下:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>	
+		 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>score<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">printIn</span><span class="token punctuation">(</span>gender<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="整型的使用细节" tabindex="-1"><a class="header-anchor" href="#整型的使用细节" aria-hidden="true">#</a> 整型的使用细节</h4>
+<ol>
+<li>
+<p>Java各整数类型有固定的范围和字段长度，不受具体OS[操作系统]的影响，以保证java程序的可移植性。</p>
+</li>
+<li>
+<p>Java的整型常量 (具体值）默认为 int 型，声明long型常量须后加 '|' 或 'L'</p>
+</li>
+<li>
+<p>java程序中变量常声明为 int 型，除非不足以表示大数，才使用 long</p>
+</li>
+<li>
+<p>bit: 计算机中的最小存储单位。byte: 计算机中基本存储单元,1byte = 8 bit</p>
+<p>byte n1 = 3: short n2 = 3</p>
+<p>思考题:  long 类型，有几个 bit  [ 8个字节 * 8bit =  64 ] long n = 3; // 内存中存在形式</p>
+</li>
+</ol>
+<h3 id="二、浮点类型-score" tabindex="-1"><a class="header-anchor" href="#二、浮点类型-score" aria-hidden="true">#</a> 二、浮点类型<span style="color: var(--c-text-accent)">（score）</span></h3>
+<h4 id="基本介绍-1" tabindex="-1"><a class="header-anchor" href="#基本介绍-1" aria-hidden="true">#</a> 基本介绍</h4>
+<p>​	Java 的浮点类型可以表示一个小数，比如：123.4，7.8，0.12等等</p>
+<h4 id="案例演示-1" tabindex="-1"><a class="header-anchor" href="#案例演示-1" aria-hidden="true">#</a> 案例演示</h4>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Var02</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>string<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">double</span> score <span class="token operator">=</span> <span class="token number">88.9</span><span class="token punctuation">;</span>	
+		 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>score<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="浮点型的分类" tabindex="-1"><a class="header-anchor" href="#浮点型的分类" aria-hidden="true">#</a> 浮点型的分类</h4>
+<p><img src="@source/course-java/primary/image/9.png" alt="image-20230224003002648"></p>
+<p><strong>说明</strong> ：</p>
+<p>1.关于浮点数在机器中存放形式的简单说明,<strong>浮点数 = 符号位 + 指数位 + 尾数位</strong>
+2.尾数部分可能丢失，造成精度损失(<strong>小数都是近似值</strong>)。</p>
+<h4 id="使用细节" tabindex="-1"><a class="header-anchor" href="#使用细节" aria-hidden="true">#</a> 使用细节</h4>
+<p>​	1.与整数类型类似，Java 浮点类型也有固定的范围和字段长度，不受具体		OS(操作系统)的影响。[float 4 个字节 double 是 8个字节]</p>
+<p>​	2.Java 的浮点型常量默认为double型，声明float型常量，须后加 “ f ’ 或  ’ F ‘</p>
+<p>​	3.浮点型常量有两种表示形式</p>
+<p>​		十进制数形式: 如: 5.12512.0f.512(必须有小数点）</p>
+<p>​		 科学计数法形式:如: 5.12e2 [5.12*10的二次方]    5.12E-2[5.12/10的二次方]</p>
+<p>​	4.通常情况下，应该使用double型，因为它比float型更精确。</p>
+<p>​		<strong>[举例说明]</strong></p>
+<p>​			double num9 = 2.1234567851;</p>
+<p>​			 float num10 = 2.1234567851F</p>
+<p>​	 5.浮点数使用陷阱: 2.7 和 8.1 / 3 比较</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">FloatDetail</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">//Java 的浮点型常量(县体值)默认为double型，声明float型常量，须后加“f’或“F</span>
+        <span class="token comment">//float num1 = 1.1; //对不对?错误</span>
+        <span class="token keyword">float</span> num2 <span class="token operator">=</span> <span class="token number">1.1F</span><span class="token punctuation">;</span> <span class="token comment">//对的</span>
+        <span class="token keyword">double</span> num3 <span class="token operator">=</span> <span class="token number">1.1</span><span class="token punctuation">;</span> <span class="token comment">//对</span>
+        <span class="token keyword">double</span> num4 <span class="token operator">=</span> <span class="token number">1.1f</span><span class="token punctuation">;</span> <span class="token comment">//对</span>
+        <span class="token comment">//十进制数形式:如 :5.12 512.0f  .512（必须有小数点)</span>
+        <span class="token keyword">double</span> num5 <span class="token operator">=</span> <span class="token number">.123</span><span class="token punctuation">;</span> <span class="token comment">//等价 .123</span>
+        system<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">printIn</span><span class="token punctuation">(</span>num5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//科学计数法形式:如 : 5.12e2 [5.12 * 1的2次方 ] 5.12E-2[]</span>
+   		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">5.12e2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//512.0</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">printIn</span><span class="token punctuation">(</span><span class="token number">5.12E-2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//0.512</span>
+        
+        <span class="token comment">/* 通常情况下，应该使用double型，因为它比float型更精确。
+         * [举例说明]
+         * double num9 = 2.1234567851;
+         * float num10 = 2.1234567851F:
+         */</span>
+        <span class="token keyword">double</span> num9 <span class="token operator">=</span> <span class="token number">2.1234567851</span><span class="token punctuation">;</span>
+		<span class="token keyword">float</span> num10 <span class="token operator">=</span> <span class="token number">2.1234567851F</span><span class="token punctuation">;</span>
+		<span class="token class-name">System</span><span class="token punctuation">.</span>out <span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num9<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num10<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        
+        <span class="token comment">/* 浮点数使用陷阱: 2.7 和 8.1 /3 比较 */</span>
+        <span class="token keyword">double</span> num11 <span class="token operator">=</span> <span class="token number">2.7</span><span class="token punctuation">;</span>
+        <span class="token keyword">double</span> num12 <span class="token operator">=</span> <span class="token number">2.7</span><span class="token punctuation">;</span> <span class="token comment">//8.1 / 3;//2.7</span>
+    	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num11<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//2.7</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num12<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//接近2.7的一个小数，而不是2.7</span>
+        
+        <span class="token doc-comment comment">/** 
+         * 得到一个重要的使用点: 当我们对运算结果是小数的进行相等判断是，要小心
+         * 应该是以两个数的差值的绝对值，在某个精度范围内判断
+         */</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span> num11 <span class="token operator">==</span> num12<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num11 == num12 相等"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+         <span class="token punctuation">}</span>
+        <span class="token comment">//正确的写法</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>num11 <span class="token operator">-</span> num12<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">.01</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">Sstem</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"差值非常小，到我的规定精度，认为相等..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token comment">//细节: 如果是直接查询得的的小数或者直接赋值，是可以判断相等！！！</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="三、字符类型-char" tabindex="-1"><a class="header-anchor" href="#三、字符类型-char" aria-hidden="true">#</a> 三、字符类型<span style="color: var(--c-text-accent)">（char）</span></h3>
+<h4 id="基本介绍-2" tabindex="-1"><a class="header-anchor" href="#基本介绍-2" aria-hidden="true">#</a> 基本介绍</h4>
+<h4 id="演示" tabindex="-1"><a class="header-anchor" href="#演示" aria-hidden="true">#</a> 演示</h4>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Char01</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">char</span> c1 <span class="token operator">=</span> <span class="token char">'a'</span><span class="token punctuation">;</span>
+        <span class="token keyword">char</span> c2 <span class="token operator">=</span> <span class="token char">'\t'</span><span class="token punctuation">;</span>
+        <span class="token keyword">char</span> c3 <span class="token operator">=</span> <span class="token char">'韩'</span><span class="token punctuation">;</span>
+        <span class="token keyword">char</span> c4 <span class="token operator">=</span> <span class="token number">97</span><span class="token punctuation">;</span> <span class="token comment">//说明: 字符类型可以直接存放一个数字</span>
+     	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c4<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//当输出C4时候，会输出97表示的字符 => 编码的概念</span>
+     <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="使用细节-1" tabindex="-1"><a class="header-anchor" href="#使用细节-1" aria-hidden="true">#</a> 使用细节</h4>
+<p>​	1.字符常量是用单引号( '' )括起来的单个字符。例如:char c1 = 'a'；char c2 = 		'中'； char c3 = '9' ;</p>
+<p>​	2.Java中还允许使用转义字符“’来将其后的字符转变为特殊字符型常量。</p>
+<p>​		<strong>例如:</strong> char c3 = ^n’;  // ‘\n’表示换行符</p>
+<p>​	3.在java中，char的本质是一个整数，在输出时，是unicode码对应的字符。</p>
+<p>​	4.可以直接给char赋一个整数，然后输出时，会按照对应的unicode 字符输     		出[97-》a]</p>
+<p>​	5.char类型是可以进行运算的，相当于一个整数，因为它都对应有Unicode码</p>
+<h4 id="代码演示" tabindex="-1"><a class="header-anchor" href="#代码演示" aria-hidden="true">#</a> 代码演示</h4>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Char01</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//在java中，char的本质是一个整数，在默认输出时，是unicode码对应的字符</span>
+		<span class="token comment">//要输出对应的数字，可以(int)字符</span>
+        <span class="token keyword">char</span> c1 <span class="token operator">=</span> <span class="token number">97</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// a</span>
+        <span class="token keyword">char</span> c2 <span class="token operator">=</span> <span class="token char">'a'</span><span class="token punctuation">;</span> 
+        <span class="token comment">//输出'a' 对应的数字</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>c2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">char</span> c3 <span class="token operator">=</span> <span class="token char">'韩'</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>c3<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//38889</span>
+        <span class="token keyword">char</span> c4 <span class="token operator">=</span> <span class="token number">38889</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c4<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//韩</span>
+        <span class="token comment">//char类型是可以进行运算的，相当于一个整数，因为它都对应有Unicode码</span>
+        system<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token char">'a'</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//107</span>
+        <span class="token comment">//小测试</span>
+		<span class="token keyword">char</span> c5 <span class="token operator">=</span>b' <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//98+1==> 99</span>
+         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>c5<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//99</span>
+         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c5<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//99->对应的字符->编码表ASCII(规定好的)>c</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​	字符类型本质探讨</p>
+<p>​	1.字符型 存储到 计算机中需要将字符对应的码值(整数) 找出来，比如 ’a‘  存储: ’a' ==&gt; 码值 97 == &gt; :二进制(110 0001) ==&gt; 存储读取:二进制(110 0001) =&gt; 97 ===&gt; 'a' =&gt; 显示</p>
+<p>​	2.字符和码值的对应关系是通过字符编码表决定的(是规定好)</p>
+<h4 id="介绍字符编码" tabindex="-1"><a class="header-anchor" href="#介绍字符编码" aria-hidden="true">#</a> 介绍字符编码</h4>
+<p>​		ASCII ( ASCII 编码表 一个字节表示，一个128 个 字符,实际上一个字节可以表示256个字符,只用128个)</p>
+<p>Unicode ( Unicode 编码表 固定大小的编码 使用两个字节来表示字符，字母和汉字统一都是占用两个字节这样浪费空间 )</p>
+<p>utf-8 ( 编码表，大小可变的编码 字母使用1个字节，汉字使用3个字节 )</p>
+<p>gbk ( 可以表示汉字，而且范围广，字母使用1个字节，汉字2个字节 )</p>
+<p>gb2312 ( 可以表示汉字，gb2312 &lt; gbk )</p>
+<p>big5 码( 繁体中文,台湾，香港 )</p>
+<h3 id="四、布尔类型-boolean" tabindex="-1"><a class="header-anchor" href="#四、布尔类型-boolean" aria-hidden="true">#</a> 四、布尔类型<span style="color: var(--c-text-accent)">（boolean）</span></h3>
+<h4 id="基本介绍-3" tabindex="-1"><a class="header-anchor" href="#基本介绍-3" aria-hidden="true">#</a> 基本介绍</h4>
+<p>​	1.布尔类型也叫 <strong>boolean</strong> 类型，<strong>booolean</strong> 类型数据只允许取值 <strong>true</strong> 和		<strong>false</strong>，无 <strong>null</strong></p>
+<p>​	2.<strong>boolean</strong>类型占1个字节</p>
+<p>​	3.boolean 类型适于逻辑运算，</p>
+<h3 id="总-结" tabindex="-1"><a class="header-anchor" href="#总-结" aria-hidden="true">#</a> 总   结</h3>
+<h4 id="_1-数值型" tabindex="-1"><a class="header-anchor" href="#_1-数值型" aria-hidden="true">#</a> 1. 数值型</h4>
+<ul>
+<li>整数类型： <strong>byte，short，int，long</strong></li>
+<li>浮点类型：<strong>float，double</strong></li>
+</ul>
+<h4 id="_2-字符型-char" tabindex="-1"><a class="header-anchor" href="#_2-字符型-char" aria-hidden="true">#</a> 2. 字符型： char</h4>
+<h4 id="_3-布尔型-boolean" tabindex="-1"><a class="header-anchor" href="#_3-布尔型-boolean" aria-hidden="true">#</a> 3. 布尔型：boolean</h4>
+</div></template>
+
+
