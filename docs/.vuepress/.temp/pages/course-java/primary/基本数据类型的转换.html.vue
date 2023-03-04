@@ -13,40 +13,22 @@
       <span class="token punctuation">}</span>
  <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="自动类型转换注意和细节" tabindex="-1"><a class="header-anchor" href="#自动类型转换注意和细节" aria-hidden="true">#</a> 自动类型转换注意和细节</h3>
-<p>​	1.有多种类型的数据混合运算时，系统首先自动将所有数据</p>
-<p>​	转换成容量最大的那种数据类型，然后再进行计算。</p>
-<p>​	2.当我们把精度(容量)大 的数据类型赋值给精度(容量)小 的数据类型时，就会报错，反之就会进行自动类型转换</p>
-<p>​	3.(byte,short) 和 char之间不会相互自动转换</p>
-<p>​	4.byte，short，char 他们三者可以计算，在计算时首先转换为 int 类型</p>
-<p>​	5.boolean 不参与转换</p>
-<p>​	6.自动提升原则: 表达式结果的类型自动提升为 操作数中最大的类型</p>
-<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token comment">//自动类型转换细节</span>
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AutoConvertDetail</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        
-        <span class="token doc-comment comment">/**
-         * 细节1 : 有多种类型的数据混合运算时,
-         * 系统首先自动将所有数据转换成容量最大的那种数据类型，然后再进行计算
-         */</span>
-        <span class="token keyword">int</span> n1 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">//ok</span>
+<p>​	1.有多种类型的数据混合运算时，系统首先自动将所有数据转换成容量最大的那种数据类型，然后再进行计算</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code>        <span class="token keyword">int</span> n1 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">//ok</span>
         
         <span class="token comment">//错误 n1 + 1.1 => 结果类型是 double</span>
-        <span class="token comment">//float d1 = n1 + 1.1; </span>
+        <span class="token keyword">float</span> d1 <span class="token operator">=</span> n1 <span class="token operator">+</span> <span class="token number">1.1</span><span class="token punctuation">;</span> 
         
         <span class="token comment">//对 n1 + 1.1 => 结果类型是 doubledouble</span>
         <span class="token keyword">double</span> d1 <span class="token operator">=</span> n1 <span class="token operator">+</span> <span class="token number">1.1</span><span class="token punctuation">;</span> 
         
         <span class="token comment">//对 n1 + 1.1 => 结果类型是 float</span>
         <span class="token keyword">float</span> d1 <span class="token operator">=</span> n1 <span class="token operator">+</span> <span class="token number">1.1F</span><span class="token punctuation">;</span> 
-        
-        <span class="token doc-comment comment">/**
-         * 细节2: 当我们把精度(容量)大 的数据类型赋值给精度(容量)小 的数据类型时
-         * 就会报错，反之就会进行自动类型转换。
-         * int n2 = 1.1;//错误 double -> int
-         */</span>
-        
-        <span class="token doc-comment comment">/** 
-         * 细节3: (byte，short) 和 char之间不会相互自动转换
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​	2.当我们把精度(容量)大 的数据类型赋值给精度(容量)小 的数据类型时，就会报错，反之就会进行自动类型转换</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code>         <span class="token comment">//错误 double -> int</span>
+         <span class="token keyword">int</span> n2 <span class="token operator">=</span> <span class="token number">1.1</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>​	3.<strong>(byte,short)</strong> 和 <strong>char</strong> 之间不会相互自动转换</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code>       <span class="token doc-comment comment">/** 
         * 当把具体数赋给 byte 时，(1)先判断该数是否在byte范围内，如果是就可以
         */</span>
         
@@ -58,12 +40,9 @@
         
         <span class="token comment">//错误， 原因 byte 不能自动转成 char</span>
          <span class="token keyword">char</span> c1 <span class="token operator">=</span> b1<span class="token punctuation">;</span> 
-        
-        <span class="token doc-comment comment">/**
-         * 细节4:
-         */</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​	4.byte，short，char 他们三者可以计算，在计算时首先转换为 int 类型</p>
+<p>​	5.boolean 不参与转换</p>
+<p>​	6.自动提升原则: 表达式结果的类型自动提升为 操作数中最大的类型</p>
+</div></template>
 
 
