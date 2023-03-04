@@ -37,8 +37,8 @@ export default defineUserConfig({
                     // { text: 'uni-app 教程', link: '/complete-tutorial/uniapp' },
                     // { text: 'Javascript 教程', link: '/course-javaScript/primary/javaScript初级教程.md' },
                     { text: 'Java', link: '/course-java/primary/' },
-                    { text: 'TypeScript', link: '/course-java/primary/' },
-                    { text: 'Recat', link: '/course-java/primary/' },
+                    { text: 'TypeScript', link: '/course-TypeScript/' },
+                    { text: 'Recat', link: '/course-recat/' },
                 ],
             },
             {
@@ -56,7 +56,7 @@ export default defineUserConfig({
                 text: 'npm插件',
                 children: [
                     { text: '快速删除node_modules依赖包', link: '/npm-plugIn/快速删除node_modules依赖包.md' },
-                    { text: 'IDEA安装', link: '/Tool-installation/IDEA安装.md' },
+                    { text: 'vue-cropper 图片裁剪', link: '/development-record/vue2/vue图片裁剪.md' },
                 ],
             },
             {
