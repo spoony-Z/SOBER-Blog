@@ -30,13 +30,15 @@ export default defineUserConfig({
                 link: '/development-record/vue2/1.Vue依赖注入 - Provide  Inject.md',
             },
             {
-                text: '完整教程',
+                text: '学习笔记',
                 children: [
                     // { text: 'vue2 教程', link: '/course-vue2/primary/vue2初级教程.md' },
                     // { text: 'recat 教程', link: '/complete-tutorial/recat' },
                     // { text: 'uni-app 教程', link: '/complete-tutorial/uniapp' },
                     // { text: 'Javascript 教程', link: '/course-javaScript/primary/javaScript初级教程.md' },
-                    { text: 'Java 学习笔记', link: '/course-java/primary/' },
+                    { text: 'Java', link: '/course-java/primary/' },
+                    { text: 'TypeScript', link: '/course-java/primary/' },
+                    { text: 'Recat', link: '/course-java/primary/' },
                 ],
             },
             {

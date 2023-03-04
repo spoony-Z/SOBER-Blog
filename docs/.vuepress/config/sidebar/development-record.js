@@ -26,6 +26,11 @@ export default {
                     text: '封装组件使用v-model传递值',
                     link: '/development-record/vue2/封装组件使用v-model传递值.md',
                 },
+                {
+                    text: 'vue图片裁剪',
+                    link: '/development-record/vue2/vue图片裁剪.md',
+                },
+
             ],
         },
         {

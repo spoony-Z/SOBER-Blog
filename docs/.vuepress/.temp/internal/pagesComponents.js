@@ -63,18 +63,18 @@ export const pagesComponents = {
   "v-30c15a64": defineAsyncComponent(() => import(/* webpackChunkName: "v-30c15a64" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/基本数据类型的转换.html.vue")),
   // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
-  // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-7a80887c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.vue")),
-  // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-b2231150": defineAsyncComponent(() => import(/* webpackChunkName: "v-b2231150" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/primary/javaScript初级教程.html.vue")),
-  // path: /course-javaScript/senior/javaScript%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-9d758ca2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d758ca2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/senior/javaScript高级教程.html.vue")),
   // path: /course-recat/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-640665ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-640665ee" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/intermediate/Java中级教程.html.vue")),
   // path: /course-recat/primary/Java%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-6a0bc427": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a0bc427" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/primary/Java初级教程.html.vue")),
   // path: /course-recat/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-7b571594": defineAsyncComponent(() => import(/* webpackChunkName: "v-7b571594" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/senior/Java高级教程.html.vue")),
+  // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-7a80887c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.vue")),
+  // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-b2231150": defineAsyncComponent(() => import(/* webpackChunkName: "v-b2231150" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/primary/javaScript初级教程.html.vue")),
+  // path: /course-javaScript/senior/javaScript%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-9d758ca2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d758ca2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/senior/javaScript高级教程.html.vue")),
   // path: /course-vue2/intermediate/vue2%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-03df0b04": defineAsyncComponent(() => import(/* webpackChunkName: "v-03df0b04" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-vue2/intermediate/vue2中级教程.html.vue")),
   // path: /course-vue2/primary/vue2%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
@@ -87,10 +87,10 @@ export const pagesComponents = {
   "v-a16b5a20": defineAsyncComponent(() => import(/* webpackChunkName: "v-a16b5a20" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/Javascript/数组中的some方法.html.vue")),
   // path: /development-record/recat/recat%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95%E7%AC%AC%E4%B8%80%E7%AB%A0.html
   "v-8ee4c012": defineAsyncComponent(() => import(/* webpackChunkName: "v-8ee4c012" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/recat/recat开发记录第一章.html.vue")),
-  // path: /development-record/uniapp/uniapp%E4%B8%AD%E8%B0%83%E8%B5%B7%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%8E%88%E6%9D%83.html
-  "v-0c4c4db1": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c4c4db1" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/uniapp/uniapp中调起微信小程序授权.html.vue")),
   // path: /development-record/vue2/1.Vue%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%20-%20Provide%20%20Inject.html
   "v-ceca6ede": defineAsyncComponent(() => import(/* webpackChunkName: "v-ceca6ede" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/1.Vue依赖注入 - Provide  Inject.html.vue")),
+  // path: /development-record/vue2/vue%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA.html
+  "v-00091288": defineAsyncComponent(() => import(/* webpackChunkName: "v-00091288" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/vue图片裁剪.html.vue")),
   // path: /development-record/vue2/vue%E7%94%9F%E6%88%90%E4%BA%8C%E7%BB%B4%E7%A0%81.html
   "v-045e70db": defineAsyncComponent(() => import(/* webpackChunkName: "v-045e70db" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/vue生成二维码.html.vue")),
   // path: /development-record/vue2/%E5%89%8D%E7%AB%AF%E6%89%B9%E9%87%8F%E5%AF%BC%E5%87%BA%E5%9B%BE%E7%89%87.html
@@ -107,6 +107,8 @@ export const pagesComponents = {
   "v-0825ddd0": defineAsyncComponent(() => import(/* webpackChunkName: "v-0825ddd0" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/vue/test02.html.vue")),
   // path: /guide/vue/test03.html
   "v-09dab66f": defineAsyncComponent(() => import(/* webpackChunkName: "v-09dab66f" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/vue/test03.html.vue")),
+  // path: /development-record/uniapp/uniapp%E4%B8%AD%E8%B0%83%E8%B5%B7%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%8E%88%E6%9D%83.html
+  "v-0c4c4db1": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c4c4db1" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/uniapp/uniapp中调起微信小程序授权.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/404.html.vue")),
 }
