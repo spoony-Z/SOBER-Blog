@@ -9,8 +9,6 @@ export const pagesComponents = {
   "v-b94127de": defineAsyncComponent(() => import(/* webpackChunkName: "v-b94127de" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-TypeScript/index.html.vue")),
   // path: /development-record/
   "v-0c3383d3": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c3383d3" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/index.html.vue")),
-  // path: /guide/face-question.html
-  "v-27483b2f": defineAsyncComponent(() => import(/* webpackChunkName: "v-27483b2f" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/face-question.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /npm-plugIn/%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4node_modules%E4%BE%9D%E8%B5%96%E5%8C%85.html
@@ -45,6 +43,10 @@ export const pagesComponents = {
   "v-7c3f7418": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c3f7418" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/vue3-antd-admin.html.vue")),
   // path: /vue-template-list/vue3-composition-admin.html
   "v-7e07386f": defineAsyncComponent(() => import(/* webpackChunkName: "v-7e07386f" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/vue3-composition-admin.html.vue")),
+  // path: /course-java/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-47999078": defineAsyncComponent(() => import(/* webpackChunkName: "v-47999078" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/intermediate/Java中级教程.html.vue")),
+  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
   // path: /course-java/primary/1.java%E7%89%B9%E6%80%A7.html
   "v-415e7252": defineAsyncComponent(() => import(/* webpackChunkName: "v-415e7252" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/1.java特性.html.vue")),
   // path: /course-java/primary/2.java%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html
@@ -63,14 +65,10 @@ export const pagesComponents = {
   "v-53768420": defineAsyncComponent(() => import(/* webpackChunkName: "v-53768420" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/基本数据类型.html.vue")),
   // path: /course-java/primary/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%BD%AC%E6%8D%A2.html
   "v-30c15a64": defineAsyncComponent(() => import(/* webpackChunkName: "v-30c15a64" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/基本数据类型的转换.html.vue")),
-  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
   // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-7a80887c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.vue")),
   // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-b2231150": defineAsyncComponent(() => import(/* webpackChunkName: "v-b2231150" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/primary/javaScript初级教程.html.vue")),
-  // path: /course-java/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-47999078": defineAsyncComponent(() => import(/* webpackChunkName: "v-47999078" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/intermediate/Java中级教程.html.vue")),
   // path: /course-javaScript/senior/javaScript%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-9d758ca2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d758ca2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/senior/javaScript高级教程.html.vue")),
   // path: /course-vue2/intermediate/vue2%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
@@ -101,12 +99,8 @@ export const pagesComponents = {
   "v-1d0a5729": defineAsyncComponent(() => import(/* webpackChunkName: "v-1d0a5729" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/在vue中使用高德地图.html.vue")),
   // path: /development-record/vue2/%E5%B0%81%E8%A3%85%E7%BB%84%E4%BB%B6%E4%BD%BF%E7%94%A8v-model%E4%BC%A0%E9%80%92%E5%80%BC.html
   "v-40859c00": defineAsyncComponent(() => import(/* webpackChunkName: "v-40859c00" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/封装组件使用v-model传递值.html.vue")),
-  // path: /guide/vue/test01.html
-  "v-06710531": defineAsyncComponent(() => import(/* webpackChunkName: "v-06710531" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/vue/test01.html.vue")),
-  // path: /guide/vue/test02.html
-  "v-0825ddd0": defineAsyncComponent(() => import(/* webpackChunkName: "v-0825ddd0" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/vue/test02.html.vue")),
-  // path: /guide/vue/test03.html
-  "v-09dab66f": defineAsyncComponent(() => import(/* webpackChunkName: "v-09dab66f" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/vue/test03.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/404.html.vue")),
+  // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
+  "v-20833aa2": defineAsyncComponent(() => import(/* webpackChunkName: "v-20833aa2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/2023计划表.html.vue")),
 }
