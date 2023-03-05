@@ -41,8 +41,28 @@
         <span class="token comment">//错误， 原因 byte 不能自动转成 char</span>
          <span class="token keyword">char</span> c1 <span class="token operator">=</span> b1<span class="token punctuation">;</span> 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​	4.byte，short，char 他们三者可以计算，在计算时首先转换为 int 类型</p>
-<p>​	5.boolean 不参与转换</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">byte</span> b2 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">byte</span> b3 <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">short</span> s1 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 错 b2 + s1 => int</span>
+<span class="token keyword">short</span> s2 <span class="token operator">=</span> b2 <span class="token operator">+</span> s1 
+    
+<span class="token comment">// 对 b2 + s1 => int</span>
+ <span class="token keyword">int</span> s2 <span class="token operator">=</span> b2 <span class="token operator">+</span> s1<span class="token punctuation">;</span>
+<span class="token comment">// 错 b2 + b3 => int</span>
+<span class="token keyword">byte</span> b4 <span class="token operator">=</span> b2 <span class="token operator">+</span> b3<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​	5.boolean 不参与转换</p>
 <p>​	6.自动提升原则: 表达式结果的类型自动提升为 操作数中最大的类型</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">byte</span> b4 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">short</span> s3 <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">1.1</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> num2 <span class="token operator">=</span> <span class="token number">1.1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">double</span> num3 <span class="token operator">=</span> b4 <span class="token operator">+</span> s3 <span class="token operator">+</span> num1 <span class="token operator">+</span> num2<span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">float</span> num4 <span class="token operator">=</span> b4 <span class="token operator">+</span> s3 <span class="token operator">+</span> num1 <span class="token operator">+</span> num2<span class="token punctuation">;</span> <span class="token comment">// 对</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="强制类型转换" tabindex="-1"><a class="header-anchor" href="#强制类型转换" aria-hidden="true">#</a> 强制类型转换</h2>
+<h4 id="介绍-自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" tabindex="-1"><a class="header-anchor" href="#介绍-自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" aria-hidden="true">#</a> 介绍 ： 自动类型转换的逆过程，将<strong>容量大</strong>的数据类型<strong>转换</strong>为<strong>容量小</strong>的数据类型。使用时要加上强制<strong>转换符()</strong>，但可能造成<strong>精度降低或溢出</strong>,格外要注意。</h4>
 </div></template>
 
 

@@ -7,6 +7,8 @@ export const pagesData = {
   "v-b94127de": () => import(/* webpackChunkName: "v-b94127de" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-TypeScript/index.html.js").then(({ data }) => data),
   // path: /development-record/
   "v-0c3383d3": () => import(/* webpackChunkName: "v-0c3383d3" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/index.html.js").then(({ data }) => data),
+  // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
+  "v-20833aa2": () => import(/* webpackChunkName: "v-20833aa2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/2023计划表.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /npm-plugIn/%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4node_modules%E4%BE%9D%E8%B5%96%E5%8C%85.html
@@ -43,8 +45,6 @@ export const pagesData = {
   "v-7e07386f": () => import(/* webpackChunkName: "v-7e07386f" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/vue3-composition-admin.html.js").then(({ data }) => data),
   // path: /course-java/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-47999078": () => import(/* webpackChunkName: "v-47999078" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/intermediate/Java中级教程.html.js").then(({ data }) => data),
-  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-53e837e5": () => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.js").then(({ data }) => data),
   // path: /course-java/primary/1.java%E7%89%B9%E6%80%A7.html
   "v-415e7252": () => import(/* webpackChunkName: "v-415e7252" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/1.java特性.html.js").then(({ data }) => data),
   // path: /course-java/primary/2.java%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html
@@ -63,6 +63,8 @@ export const pagesData = {
   "v-53768420": () => import(/* webpackChunkName: "v-53768420" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/基本数据类型.html.js").then(({ data }) => data),
   // path: /course-java/primary/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%BD%AC%E6%8D%A2.html
   "v-30c15a64": () => import(/* webpackChunkName: "v-30c15a64" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/基本数据类型的转换.html.js").then(({ data }) => data),
+  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-53e837e5": () => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.js").then(({ data }) => data),
   // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-7a80887c": () => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.js").then(({ data }) => data),
   // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
@@ -99,6 +101,4 @@ export const pagesData = {
   "v-40859c00": () => import(/* webpackChunkName: "v-40859c00" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/vue2/封装组件使用v-model传递值.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
-  // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
-  "v-20833aa2": () => import(/* webpackChunkName: "v-20833aa2" */"C:/Users/admin/Desktop/记录/SOBER-Blog/docs/.vuepress/.temp/pages/guide/2023计划表.html.js").then(({ data }) => data),
 }
