@@ -62,7 +62,41 @@
 <span class="token keyword">double</span> num3 <span class="token operator">=</span> b4 <span class="token operator">+</span> s3 <span class="token operator">+</span> num1 <span class="token operator">+</span> num2<span class="token punctuation">;</span> <span class="token comment">// 对</span>
 <span class="token keyword">float</span> num4 <span class="token operator">=</span> b4 <span class="token operator">+</span> s3 <span class="token operator">+</span> num1 <span class="token operator">+</span> num2<span class="token punctuation">;</span> <span class="token comment">// 对</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="强制类型转换" tabindex="-1"><a class="header-anchor" href="#强制类型转换" aria-hidden="true">#</a> 强制类型转换</h2>
-<h4 id="介绍-自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" tabindex="-1"><a class="header-anchor" href="#介绍-自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" aria-hidden="true">#</a> 介绍 ： 自动类型转换的逆过程，将<strong>容量大</strong>的数据类型<strong>转换</strong>为<strong>容量小</strong>的数据类型。使用时要加上强制<strong>转换符()</strong>，但可能造成<strong>精度降低或溢出</strong>,格外要注意。</h4>
+<h4 id="介绍-1" tabindex="-1"><a class="header-anchor" href="#介绍-1" aria-hidden="true">#</a> 介绍 ：</h4>
+<h5 id="自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" tabindex="-1"><a class="header-anchor" href="#自动类型转换的逆过程-将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符-但可能造成精度降低或溢出-格外要注意。" aria-hidden="true">#</a> 自动类型转换的逆过程，将<strong>容量大</strong>的数据类型<strong>转换</strong>为<strong>容量小</strong>的数据类型。使用时要加上强制<strong>转换符()</strong>，但可能造成<strong>精度降低或溢出</strong>,格外要注意。</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token comment">// 造成精度损失</span>
+<span class="token keyword">int</span> n1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token number">1.9</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"n1="</span> <span class="token operator">+</span> n1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 造成数据溢出</span>
+<span class="token keyword">int</span> n2 <span class="token operator">=</span> <span class="token number">2000</span><span class="token punctuation">;</span>
+<span class="token keyword">byte</span> b1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token punctuation">)</span>n2<span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"b1="</span> <span class="token operator">+</span> b1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="细节说明" tabindex="-1"><a class="header-anchor" href="#细节说明" aria-hidden="true">#</a> 细节说明</h4>
+<ol>
+<li>
+<p>​	当进行数据的大小从  大 ——&gt; 小，就需要使用到强制转换</p>
+</li>
+<li>
+<p>强制转换符号只正对最近的操作符有效，使用小括号提升优先级</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token comment">// 错误</span>
+<span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token number">10</span> <span class="token operator">*</span> <span class="token number">3.5</span> <span class="token operator">+</span> <span class="token number">6</span> <span class="token operator">*</span> <span class="token number">1.5</span>
+    
+<span class="token comment">// 正确</span>
+ <span class="token keyword">int</span> y <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> <span class="token number">3.5</span> <span class="token operator">+</span> <span class="token number">6</span> <span class="token operator">*</span> <span class="token number">1.5</span><span class="token punctuation">)</span><span class="token number">10</span> <span class="token operator">*</span> <span class="token number">3.5</span> <span class="token operator">+</span> <span class="token number">6</span> <span class="token operator">*</span> <span class="token number">1.5</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>char 类型可以保存 int 的常量直值，但不能保存 int 的变量值，需要强制转换</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">char</span> a <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> 
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">char</span> c <span class="token operator">=</span> a<span class="token punctuation">;</span> <span class="token comment">// 错</span>
+<span class="token keyword">char</span> m <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">char</span><span class="token punctuation">)</span>b<span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>m<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>byte 和 short，char 类型在进行运算时，当做 int 类型来处理</p>
+</li>
+</ol>
 </div></template>
 
 
