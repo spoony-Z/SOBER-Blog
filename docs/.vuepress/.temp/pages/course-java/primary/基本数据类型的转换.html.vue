@@ -97,6 +97,55 @@
 <p>byte 和 short，char 类型在进行运算时，当做 int 类型来处理</p>
 </li>
 </ol>
+<h2 id="基本数据类型的转换练习" tabindex="-1"><a class="header-anchor" href="#基本数据类型的转换练习" aria-hidden="true">#</a> 基本数据类型的转换练习</h2>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">short</span> s <span class="token operator">=</span> <span class="token number">12</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+s <span class="token operator">=</span> s <span class="token operator">-</span> <span class="token number">9</span><span class="token punctuation">;</span> <span class="token comment">// 错 int ---> short</span>
+
+<span class="token keyword">byte</span> b <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+b <span class="token operator">=</span> b <span class="token operator">+</span> <span class="token number">11</span><span class="token punctuation">;</span> <span class="token comment">// 错 int ---> byte</span>
+b <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token punctuation">)</span><span class="token punctuation">(</span>b <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 对 使用强转</span>
+
+<span class="token keyword">char</span> c <span class="token operator">=</span> <span class="token char">'a'</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">16</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">float</span> d <span class="token operator">=</span> <span class="token number">.314F</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">double</span> resule <span class="token operator">=</span> c <span class="token operator">+</span> i <span class="token operator">+</span> d<span class="token punctuation">;</span> <span class="token comment">// 对 float ---> double</span>
+
+<span class="token keyword">byte</span> b <span class="token operator">=</span> <span class="token number">16</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">short</span> s <span class="token operator">=</span> <span class="token number">14</span><span class="token punctuation">;</span> <span class="token comment">// 对</span>
+<span class="token keyword">short</span> t <span class="token operator">=</span> s <span class="token operator">+</span> b<span class="token punctuation">;</span> <span class="token comment">// 错误 int ---> short</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="基本数据类型和string-类型的转换" tabindex="-1"><a class="header-anchor" href="#基本数据类型和string-类型的转换" aria-hidden="true">#</a> 基本数据类型和<strong>String</strong> 类型的转换</h2>
+<h3 id="介绍-2" tabindex="-1"><a class="header-anchor" href="#介绍-2" aria-hidden="true">#</a> 介绍</h3>
+<p>​	在程序开发中，我们经常需要将基本数据类型转成 <strong>String</strong>  类型。或者将<strong>String</strong> 型转成<strong>基本数据类型</strong>。</p>
+<h3 id="基本类型转-string-类型" tabindex="-1"><a class="header-anchor" href="#基本类型转-string-类型" aria-hidden="true">#</a> 基本类型转 <strong>String</strong> 类型</h3>
+<p><strong>语法：</strong> 将基本类型的值 + &quot;&quot; 即可</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">int</span> n1 <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token keyword">float</span> n2 <span class="token operator">=</span> <span class="token number">1.1F</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> n3 <span class="token operator">=</span> <span class="token number">4.5</span><span class="token punctuation">;</span>
+<span class="token keyword">boolean</span> n4 <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 转换为 String 类型</span>
+<span class="token class-name">String</span> s1 <span class="token operator">=</span> n1 <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> s2 <span class="token operator">=</span> n2 <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> s3 <span class="token operator">=</span> n3 <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> s4 <span class="token operator">=</span> n4 <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>    
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="string类型转基本数据类型" tabindex="-1"><a class="header-anchor" href="#string类型转基本数据类型" aria-hidden="true">#</a> String类型转基本数据类型</h3>
+<p><strong>语法：</strong> 通过基本类型的包装类调用parseXX方法即可</p>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token class-name">String</span> str <span class="token operator">=</span> <span class="token string">"123456"</span><span class="token punctuation">;</span>
+
+<span class="token comment">//转换 str 为其他数据类型</span>
+<span class="token keyword">int</span> a1 <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> a2 <span class="token operator">=</span> <span class="token class-name">Double</span><span class="token punctuation">.</span><span class="token function">parseDouble</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">float</span> a3 <span class="token operator">=</span> <span class="token class-name">Float</span><span class="token punctuation">.</span><span class="token function">parseFloat</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">long</span> a4 <span class="token operator">=</span> <span class="token class-name">Long</span><span class="token punctuation">.</span><span class="token function">parseLong</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">byte</span> a5 <span class="token operator">=</span> <span class="token class-name">Byte</span><span class="token punctuation">.</span><span class="token function">parseByte</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">boolean</span> a6 <span class="token operator">=</span> <span class="token class-name">Boolean</span><span class="token punctuation">.</span><span class="token function">parseBoolean</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">short</span> a7 <span class="token operator">=</span> <span class="token class-name">Short</span><span class="token punctuation">.</span><span class="token function">parseShort</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">char</span> a8 <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将字符串第一个转为字符型</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="注意事项" tabindex="-1"><a class="header-anchor" href="#注意事项" aria-hidden="true">#</a> 注意事项！</h3>
+<ol>
+<li>在将 <strong>String</strong>  类型转成 基本数据类型时，要确保 <strong>String</strong> 类型能够转成有效的数据，比如 我们可以把“123”，转成一个整数，但是不能把 “hello” 转成一个整数</li>
+<li>如果格式不正确，就会<strong>抛出异常</strong>，程序就会<strong>终止</strong>， 这个问题在异常处理章节中，会处理</li>
+</ol>
 </div></template>
 
 
