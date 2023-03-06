@@ -34,6 +34,10 @@ export default {
                 link: '/course-java/primary/基本数据类型的转换.md',
                 text: '基本数据类型的转换',
             }, 
+            {
+                link: '/course-java/primary/运算符.md',
+                text: '运算符',
+            }, 
             
             
         ],
