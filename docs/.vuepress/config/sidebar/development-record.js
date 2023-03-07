@@ -50,9 +50,14 @@ export default {
             text: 'Uni-App',
             collapsible: false,
             children: [{
-                link: '/development-record/uniapp/uniapp中调起微信小程序授权.md',
-                text: 'uniapp中调起微信小程序授权',
-            }, ],
+                    link: '/development-record/uniapp/uniapp中调起微信小程序授权.md',
+                    text: 'uniapp中调起微信小程序授权',
+                },
+                {
+                    link: '/development-record/uniapp/uniapp 下一页返回上一页传参.md',
+                    text: 'uniapp 下一页返回上一页传参',
+                },
+            ],
         },
         {
             text: 'recat',
