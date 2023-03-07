@@ -1,0 +1,1 @@
+import{_ as t,p as c,q as r,R as e,t as a}from"./framework-204010b2.js";const s={},n=e("h1",{id:"typescript-学习笔记",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#typescript-学习笔记","aria-hidden":"true"},"#"),a(" TypeScript 学习笔记")],-1),o=[n];function i(_,d){return c(),r("div",null,o)}const h=t(s,[["render",i],["__file","index.html.vue"]]);export{h as default};

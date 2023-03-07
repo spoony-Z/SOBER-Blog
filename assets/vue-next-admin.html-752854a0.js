@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-485200df","path":"/vue-template-list/vue-next-admin.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1677152493000,"contributors":[{"name":"spoony_Z","email":"shenjun_y@yeah.net","commits":1}]},"filePathRelative":"vue-template-list/vue-next-admin.md"}');export{e as data};
