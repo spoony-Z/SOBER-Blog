@@ -1,7 +1,7 @@
 export default {
     '/course-java/': [{
             text: 'Java初级',
-            collapsible: true,
+            collapsible: false,
             children: [{
                 link: '/course-java/primary/1.java特性.md',
                 text: 'java特性',
@@ -37,6 +37,10 @@ export default {
             {
                 link: '/course-java/primary/运算符.md',
                 text: '运算符',
+            }, 
+            {
+                link: '/course-java/primary/进制.md',
+                text: '进制',
             }, 
             
             
