@@ -42,6 +42,10 @@ export default {
                 link: '/course-java/primary/进制.md',
                 text: '进制',
             }, 
+            {
+                link: '/course-java/primary/控制结构.md',
+                text: '控制结构',
+            }, 
             
             
         ],

@@ -53,7 +53,78 @@
 <li>十六进制转二进制</li>
 </ol>
 <h2 id="原码、反码、补码" tabindex="-1"><a class="header-anchor" href="#原码、反码、补码" aria-hidden="true">#</a> 原码、反码、补码</h2>
+<ol>
+<li>二进制的最高位是符号位: 0表示正数,1表示负数(口诀: 0 -&gt; 0 1 -&gt; -)</li>
+<li>正数的原码，反码，补码都一样(三码合一)</li>
+<li>负数的反码 = 它的原码符号位不变，其它位取反(0 -&gt; 1,1 -&gt; 0)</li>
+<li>负数的补码 = 它的反码 +1，负数的反码  = 负数的补码 - 1</li>
+<li>0的反码，补码都是0</li>
+<li>java 没有无符号数，换言之，java中的数都是有符号的</li>
+<li>在计算机运算的时候，都是以补码的方式来运算的.</li>
+<li>当我们看运算结果的时候，要看他的原码(<strong>重点</strong>)</li>
+</ol>
 <h2 id="位运算" tabindex="-1"><a class="header-anchor" href="#位运算" aria-hidden="true">#</a> 位运算</h2>
+<p><strong>java 中有 7 个位运算（&amp;、|、^、~、&gt;&gt;、&lt;&lt;  和 &lt;&lt;&lt;）</strong></p>
+<h3 id="普通运算符" tabindex="-1"><a class="header-anchor" href="#普通运算符" aria-hidden="true">#</a> 普通运算符</h3>
+<ol>
+<li><strong>按位与 &amp;</strong>：两位全为1，结果为1，否则为0；</li>
+<li><strong>按位或 |</strong>：两位有一个为1，结果为1，否则为0；</li>
+<li><strong>按位异或 ^</strong>：两位一个为0,一个为1，结果为1，否则为0</li>
+<li><strong>按位取反 ~</strong>：0 -&gt; 1，1 -&gt; 0；</li>
+</ol>
+<h3 id="演示-1" tabindex="-1"><a class="header-anchor" href="#演示-1" aria-hidden="true">#</a> 演示</h3>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token doc-comment comment">/**
+ * 2&amp;3 推导过程
+ * 1. 得到2的补码就要先得到2的原码（正数三码合一）
+ *     00000000 00000000 00000000 00000010(2的原码)
+ *     00000000 00000000 00000000 00000010(2的补码)
+ * 2. 得到3的补码就要先得到3的原码（正数三码合一）
+ *     00000000 00000000 00000000 00000011(3的原码)
+ *     00000000 00000000 00000000 00000011(3的补码)
+ * 3. 换位 &amp;
+ *	   2的补码：00000000 00000000 00000000 00000010
+ * 	   3的补码：00000000 00000000 00000000 00000011
+ *      &amp;的结果：00000000 00000000 00000000 00000010
+ * 4. &amp;的结果转位十进制：2
+ * 所以最终输出为 2
+ */</span>
+<span class="token class-name">Syetem</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">&amp;</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token doc-comment comment">/**
+ * ~-2 推导过程
+ * 1. 得到-2的补码就要先得到-2的原码和反码
+ *     10000000 00000000 00000000 00000010(-2的原码)
+ *     11111111 11111111 11111111 11111101(-2的反码)
+ * 2. 得到-2的补码就要在-2的反码基础上加1
+ *     11111111 11111111 11111111 11111110(-2的反码)
+ * 3. 运算 按位异或^
+ *	   00000000 00000000 00000000 00000001（原码）
+ * 4. 结果转位十进制：1
+ * 所以最终输出为 1
+ */</span>
+<span class="token class-name">Syetem</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token operator">~</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="位移运算符-、-和" tabindex="-1"><a class="header-anchor" href="#位移运算符-、-和" aria-hidden="true">#</a> 位移运算符（&gt;&gt;、&lt;&lt;  和  &gt;&gt;&gt;）</h3>
+<h4 id="运算规则" tabindex="-1"><a class="header-anchor" href="#运算规则" aria-hidden="true">#</a> 运算规则</h4>
+<ol>
+<li><strong>算术右移 &gt;&gt;</strong>：低位溢出,符号位不变,并用符号位补溢出的高位</li>
+<li><strong>算术左移 &lt;&lt;</strong>：符号位不变,低位补0</li>
+<li><strong>“ &gt;&gt;&gt; ”逻辑右移</strong>也叫<strong>无符号右移</strong>, 运算规则是: 低位溢出，高位补 0</li>
+<li>**特别说明：**没有 &lt;&lt;&lt; 符号</li>
+</ol>
+<h4 id="演示-2" tabindex="-1"><a class="header-anchor" href="#演示-2" aria-hidden="true">#</a> 演示</h4>
+<div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">>></span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 0</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">&lt;&lt;</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 4</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">4</span> <span class="token operator">&lt;&lt;</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 4 * 2 * 2 * 2 = 32</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">15</span> <span class="token operator">>></span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 15 / 2 / 2 = 3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="练习" tabindex="-1"><a class="header-anchor" href="#练习" aria-hidden="true">#</a> 练习</h2>
+<h4 id="_1-计算下列表达是的结果" tabindex="-1"><a class="header-anchor" href="#_1-计算下列表达是的结果" aria-hidden="true">#</a> 1. 计算下列表达是的结果</h4>
+<p>10/3 = ?;</p>
+<p>10 / 5 = ?;</p>
+<p>10 % 2 = ?;</p>
+<p>-10 % 3 = ?;</p>
+<h4 id="_2-试写出将string转换成double类型的语句-以及将char类型转换成string的语句-举例说明即可-写简单代码" tabindex="-1"><a class="header-anchor" href="#_2-试写出将string转换成double类型的语句-以及将char类型转换成string的语句-举例说明即可-写简单代码" aria-hidden="true">#</a> 2.试写出将String转换成double类型的语句,以及将char类型转换成String的语句,举例说明即可，写简单代码</h4>
 </div></template>
 
 
