@@ -3,10 +3,10 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /course-recat/
-  "v-67a6e765": defineAsyncComponent(() => import(/* webpackChunkName: "v-67a6e765" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/index.html.vue")),
   // path: /course-TypeScript/
   "v-b94127de": defineAsyncComponent(() => import(/* webpackChunkName: "v-b94127de" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-TypeScript/index.html.vue")),
+  // path: /course-recat/
+  "v-67a6e765": defineAsyncComponent(() => import(/* webpackChunkName: "v-67a6e765" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/index.html.vue")),
   // path: /development-record/
   "v-0c3383d3": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c3383d3" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/index.html.vue")),
   // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
@@ -45,6 +45,10 @@ export const pagesComponents = {
   "v-7c3f7418": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c3f7418" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/vue3-antd-admin.html.vue")),
   // path: /vue-template-list/vue3-composition-admin.html
   "v-7e07386f": defineAsyncComponent(() => import(/* webpackChunkName: "v-7e07386f" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/vue3-composition-admin.html.vue")),
+  // path: /course-java/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-47999078": defineAsyncComponent(() => import(/* webpackChunkName: "v-47999078" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/intermediate/Java中级教程.html.vue")),
+  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
   // path: /course-java/primary/1.java%E7%89%B9%E6%80%A7.html
   "v-415e7252": defineAsyncComponent(() => import(/* webpackChunkName: "v-415e7252" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/1.java特性.html.vue")),
   // path: /course-java/primary/2.java%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html
@@ -69,10 +73,6 @@ export const pagesComponents = {
   "v-8406b1d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-8406b1d4" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/运算符.html.vue")),
   // path: /course-java/primary/%E8%BF%9B%E5%88%B6.html
   "v-3e8a1d8c": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e8a1d8c" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/进制.html.vue")),
-  // path: /course-java/intermediate/Java%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-47999078": defineAsyncComponent(() => import(/* webpackChunkName: "v-47999078" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/intermediate/Java中级教程.html.vue")),
-  // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
   // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-7a80887c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.vue")),
   // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
