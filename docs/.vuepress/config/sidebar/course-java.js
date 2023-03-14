@@ -46,6 +46,10 @@ export default {
                 link: '/course-java/primary/控制结构.md',
                 text: '控制结构',
             }, 
+            {
+                link: '/course-java/primary/数组.md',
+                text: '数组',
+            }, 
             
             
         ],
