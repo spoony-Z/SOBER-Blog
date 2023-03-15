@@ -50,6 +50,10 @@ export default {
                 link: '/course-java/primary/数组.md',
                 text: '数组',
             }, 
+            {
+                link: '/course-java/primary/面向对象编程.md',
+                text: '面向对象编程',
+            }, 
             
             
         ],

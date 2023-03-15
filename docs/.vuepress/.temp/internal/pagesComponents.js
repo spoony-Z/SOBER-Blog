@@ -7,18 +7,18 @@ export const pagesComponents = {
   "v-b94127de": defineAsyncComponent(() => import(/* webpackChunkName: "v-b94127de" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-TypeScript/index.html.vue")),
   // path: /course-recat/
   "v-67a6e765": defineAsyncComponent(() => import(/* webpackChunkName: "v-67a6e765" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-recat/index.html.vue")),
-  // path: /development-record/
-  "v-0c3383d3": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c3383d3" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/index.html.vue")),
-  // path: /npm-plugIn/%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4node_modules%E4%BE%9D%E8%B5%96%E5%8C%85.html
-  "v-bd0d89b2": defineAsyncComponent(() => import(/* webpackChunkName: "v-bd0d89b2" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/npm-plugIn/快速删除node_modules依赖包.html.vue")),
-  // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
-  "v-20833aa2": defineAsyncComponent(() => import(/* webpackChunkName: "v-20833aa2" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/guide/2023计划表.html.vue")),
-  // path: /guide/
-  "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /Tool-installation/IDEA%E5%AE%89%E8%A3%85.html
   "v-cfd0f1d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-cfd0f1d0" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/Tool-installation/IDEA安装.html.vue")),
   // path: /Tool-installation/MySql%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html
   "v-6463398f": defineAsyncComponent(() => import(/* webpackChunkName: "v-6463398f" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/Tool-installation/MySql安装教程.html.vue")),
+  // path: /development-record/
+  "v-0c3383d3": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c3383d3" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/development-record/index.html.vue")),
+  // path: /guide/2023%E8%AE%A1%E5%88%92%E8%A1%A8.html
+  "v-20833aa2": defineAsyncComponent(() => import(/* webpackChunkName: "v-20833aa2" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/guide/2023计划表.html.vue")),
+  // path: /guide/
+  "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
+  // path: /npm-plugIn/%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4node_modules%E4%BE%9D%E8%B5%96%E5%8C%85.html
+  "v-bd0d89b2": defineAsyncComponent(() => import(/* webpackChunkName: "v-bd0d89b2" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/npm-plugIn/快速删除node_modules依赖包.html.vue")),
   // path: /vue-template-list/fantastic-admin.html
   "v-7c03131a": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c03131a" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/vue-template-list/fantastic-admin.html.vue")),
   // path: /vue-template-list/gin-vue-admin.html
@@ -73,14 +73,16 @@ export const pagesComponents = {
   "v-8406b1d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-8406b1d4" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/运算符.html.vue")),
   // path: /course-java/primary/%E8%BF%9B%E5%88%B6.html
   "v-3e8a1d8c": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e8a1d8c" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/进制.html.vue")),
+  // path: /course-java/primary/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.html
+  "v-792195d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-792195d8" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/primary/面向对象编程.html.vue")),
   // path: /course-java/senior/Java%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-53e837e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e837e5" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-java/senior/Java高级教程.html.vue")),
   // path: /course-javaScript/intermediate/javaScript%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-7a80887c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a80887c" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/intermediate/javaScript中级教程.html.vue")),
-  // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
-  "v-b2231150": defineAsyncComponent(() => import(/* webpackChunkName: "v-b2231150" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/primary/javaScript初级教程.html.vue")),
   // path: /course-javaScript/senior/javaScript%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-9d758ca2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d758ca2" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/senior/javaScript高级教程.html.vue")),
+  // path: /course-javaScript/primary/javaScript%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
+  "v-b2231150": defineAsyncComponent(() => import(/* webpackChunkName: "v-b2231150" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-javaScript/primary/javaScript初级教程.html.vue")),
   // path: /course-vue2/intermediate/vue2%E4%B8%AD%E7%BA%A7%E6%95%99%E7%A8%8B.html
   "v-03df0b04": defineAsyncComponent(() => import(/* webpackChunkName: "v-03df0b04" */"C:/Users/admin/Desktop/vuePress/SOBER-Blog/docs/.vuepress/.temp/pages/course-vue2/intermediate/vue2中级教程.html.vue")),
   // path: /course-vue2/primary/vue2%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B.html
