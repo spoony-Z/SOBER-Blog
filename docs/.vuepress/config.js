@@ -16,7 +16,7 @@ export default defineUserConfig({
     head: [
         ['link', { rel: 'icon', href: '' }]
     ],
-    description: '发到付加防腐剂附加费减肥减肥减肥减肥减肥就',
+    description: '',
     theme: defaultTheme({
         logo: '/images/homeLogo.jpg',
         // repo: 'https://github.com/spoony-Z',
@@ -36,7 +36,7 @@ export default defineUserConfig({
                     // { text: 'recat 教程', link: '/complete-tutorial/recat' },
                     // { text: 'uni-app 教程', link: '/complete-tutorial/uniapp' },
                     // { text: 'Javascript 教程', link: '/course-javaScript/primary/javaScript初级教程.md' },
-                    { text: 'Java', link: '/course-java/primary/' },
+                    { text: 'Java', link: '/course-java/primary/总结.md' },
                     { text: 'TypeScript', link: '/course-TypeScript/' },
                     { text: 'Recat', link: '/course-recat/' },
                 ],
@@ -67,7 +67,6 @@ export default defineUserConfig({
                 text: 'Gitee',
                 link: 'https://gitee.com/spoony_Z',
             },
-            ' '
         ],
         sidebar: {
             ...developmentRecord,
@@ -77,7 +76,9 @@ export default defineUserConfig({
             ...courseJavaScript,
             ...ToolInstallation,
             ...npmPlugIn,
-        }
+            '/': [''],
+        },
+        subSidebar: true,
     }),
     // plugins
 

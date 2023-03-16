@@ -1,62 +1,61 @@
 export default {
     '/course-java/': [{
             text: 'Java初级',
-            collapsible: false,
             children: [{
-                link: '/course-java/primary/1.java特性.md',
-                text: 'java特性',
-            },
-            {
-                link: '/course-java/primary/2.java快速入门.md',
-                text: 'java快速入门',
-            }, 
-            {
-                link: '/course-java/primary/3.java基础.md',
-                text: 'java基础',
-            }, 
-            {
-                link: '/course-java/primary/DOS命令了解.md',
-                text: 'DOS命令了解',
-            }, 
-            {
-                link: '/course-java/primary/变量.md',
-                text: '变量',
-            }, 
-            {
-                link: '/course-java/primary/Java API 文档.md',
-                text: 'Java API 文档',
-            }, 
-            {
-                link: '/course-java/primary/基本数据类型.md',
-                text: '基本数据类型',
-            }, 
-            {
-                link: '/course-java/primary/基本数据类型的转换.md',
-                text: '基本数据类型的转换',
-            }, 
-            {
-                link: '/course-java/primary/运算符.md',
-                text: '运算符',
-            }, 
-            {
-                link: '/course-java/primary/进制.md',
-                text: '进制',
-            }, 
-            {
-                link: '/course-java/primary/控制结构.md',
-                text: '控制结构',
-            }, 
-            {
-                link: '/course-java/primary/数组.md',
-                text: '数组',
-            }, 
-            {
-                link: '/course-java/primary/面向对象编程.md',
-                text: '面向对象编程',
-            }, 
-            
-            
-        ],
+                    link: '/course-java/primary/2.java快速入门.md',
+                    text: 'java快速入门',
+                },
+                {
+                    link: '/course-java/primary/3.java基础.md',
+                    text: 'java基础',
+                },
+                {
+                    link: '/course-java/primary/DOS命令了解.md',
+                    text: 'DOS命令了解',
+                },
+                {
+                    link: '/course-java/primary/变量.md',
+                    text: '变量',
+                },
+                {
+                    link: '/course-java/primary/Java API 文档.md',
+                    text: 'Java API 文档',
+                },
+                {
+                    link: '/course-java/primary/基本数据类型.md',
+                    text: '基本数据类型',
+                },
+                {
+                    link: '/course-java/primary/基本数据类型的转换.md',
+                    text: '基本数据类型的转换',
+                },
+                {
+                    link: '/course-java/primary/运算符.md',
+                    text: '运算符',
+                },
+                {
+                    link: '/course-java/primary/进制.md',
+                    text: '进制',
+                },
+                {
+                    link: '/course-java/primary/控制结构.md',
+                    text: '控制结构',
+                },
+                {
+                    link: '/course-java/primary/array.md',
+                    text: '数组',
+                },
+                {
+                    link: '/course-java/primary/面向对象编程.md',
+                    text: '面向对象编程',
+                },
+                {
+                    link: '/course-java/primary/总结.md',
+                    text: 'Java总结',
+                },
+
+
+            ],
         },
         // {
         //     text: 'Java中级',

@@ -1,33 +1,3 @@
-<template><div><h2 id="java特性" tabindex="-1"><a class="header-anchor" href="#java特性" aria-hidden="true">#</a> java特性</h2>
-<p>1.java语言是面向对象的（oop）</p>
-<p>3.跨平台性（一个便衣好的 .class 文件可以在多个系统下运行，中特性叫跨平台性）</p>
-<p><img src="@source/course-java/primary/image/1..png" alt="image-20230224001416416"></p>
-<p>4.java语言是解释性语言</p>
-<p>​	解释性语言：javascript，PHP，java</p>
-<p>​	编译性语言：c、c++</p>
-<h2 id="开发软件" tabindex="-1"><a class="header-anchor" href="#开发软件" aria-hidden="true">#</a> 开发软件</h2>
-<p>editplus、notepad++、Sublime Text、IDEA、eclipse</p>
-<h2 id="java运行机制及运行过程" tabindex="-1"><a class="header-anchor" href="#java运行机制及运行过程" aria-hidden="true">#</a> java运行机制及运行过程</h2>
-<h3 id="机制-java核心机制-java-虚拟机-jvm-java-virtual-machine" tabindex="-1"><a class="header-anchor" href="#机制-java核心机制-java-虚拟机-jvm-java-virtual-machine" aria-hidden="true">#</a> 机制：java核心机制-java 虚拟机 [ JVM （java virtual machine） ]</h3>
-<h3 id="运行过程" tabindex="-1"><a class="header-anchor" href="#运行过程" aria-hidden="true">#</a> 运行过程：</h3>
-<p>​	1.JVM是一个虚拟的计算机，具有指令集并使用不同的存储区域，负责执行指令，管理数据、内存、寄存器，包含JDK中。</p>
-<p>​	2.对于不同的平台，有不同的虚拟机</p>
-<p>​	3.java虚拟机机制屏蔽了底层运行平台的差别，实现了“一次编译，到处运行”（如图）</p>
-<p><img src="@source/course-java/primary/image/2..png" alt="image-20230224003002648"></p>
-<h2 id="什么是jdk、jre" tabindex="-1"><a class="header-anchor" href="#什么是jdk、jre" aria-hidden="true">#</a> 什么是JDK、JRE</h2>
-<h3 id="jdk" tabindex="-1"><a class="header-anchor" href="#jdk" aria-hidden="true">#</a> JDK</h3>
-<p>​	1.JDK全称（java Development Kit   Java开发工具包）
-​	   JDK = JRE + java的开发工具 [ java、javac、javadoc、javap等 ]</p>
-<p>​	 2.JDK是提供给开发人员使用的，其中包含了java的开发工具，也包括了JRE。所以		安装了JDK，就不用单独安装JRE了</p>
-<h3 id="jre" tabindex="-1"><a class="header-anchor" href="#jre" aria-hidden="true">#</a> JRE</h3>
-<p>​		1.JRE（Java Runtime Environment     Java运行环境）</p>
-<p>​			JRE = JVM + Java的核心类库[ 类 ]</p>
-<p>​		2.包括java虚拟机（JVM Java Virtual Machine）和Java程序所需的核心类库等，			如果只运行 Java 程序，计算机安装JRE即可</p>
-<h3 id="jdk、jre和jvm的关系" tabindex="-1"><a class="header-anchor" href="#jdk、jre和jvm的关系" aria-hidden="true">#</a> JDK、JRE和JVM的关系</h3>
-<p>​	1.JDK = JRE + 开发工具集（例如：javac、java编译工具等）</p>
-<p>​	2.JRE = JVM + java SE标准类库</p>
-<p>​	3.JDK = JVM + java SE标准类库 + 开发工具集</p>
-<p>​	4.只运行开发好的 .class 文件 只需要JRE</p>
-</div></template>
+<template><div></div></template>
 
 

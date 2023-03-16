@@ -1,4 +1,5 @@
-<template><div><h2 id="数据类型" tabindex="-1"><a class="header-anchor" href="#数据类型" aria-hidden="true">#</a> 数据类型</h2>
+<template><div><h1 id="java基本数据类型" tabindex="-1"><a class="header-anchor" href="#java基本数据类型" aria-hidden="true">#</a> Java基本数据类型</h1>
+<h2 id="数据类型" tabindex="-1"><a class="header-anchor" href="#数据类型" aria-hidden="true">#</a> 数据类型</h2>
 <h5 id="java的基本数据类型总共有-8-种-包括三类-数值型-字符型-布尔型" tabindex="-1"><a class="header-anchor" href="#java的基本数据类型总共有-8-种-包括三类-数值型-字符型-布尔型" aria-hidden="true">#</a> Java的基本数据类型总共有 <strong>8</strong> 种，包括三类：数值型，字符型，布尔型</h5>
 <p><img src="@source/course-java/primary/image/7.png" alt="image-20230224003002648"></p>
 <h3 id="一、整数类型-byte、short、int、long" tabindex="-1"><a class="header-anchor" href="#一、整数类型-byte、short、int、long" aria-hidden="true">#</a> 一、整数类型<span style="color: var(--c-text-accent)">（byte、short、int、long）</span></h3>

@@ -1,4 +1,5 @@
-<template><div><h2 id="java-转义符" tabindex="-1"><a class="header-anchor" href="#java-转义符" aria-hidden="true">#</a> java 转义符</h2>
+<template><div><h1 id="java-基础" tabindex="-1"><a class="header-anchor" href="#java-基础" aria-hidden="true">#</a> Java 基础</h1>
+<h2 id="java-转义符" tabindex="-1"><a class="header-anchor" href="#java-转义符" aria-hidden="true">#</a> java 转义符</h2>
 <p>​	1. <Badge type="tip" text="\t " vertical="middle" />：一个制表位，实现对其的功能</p>
 <p>​	2. <Badge type="tip" text="\n" vertical="middle" />：换行符</p>
 <p>​	3. <Badge type="tip" text="\\" vertical="middle" />：一个\</p>
@@ -132,6 +133,7 @@ javadoc <span class="token parameter variable">-d</span> D:<span class="token pu
 <p>​	5.源文件使用utf-8编码</p>
 <p>​	6.行宽度不要超过80字符</p>
 <p>​	7.代码编写次行风格和行尾风格</p>
+<h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h2>
 </div></template>
 
 

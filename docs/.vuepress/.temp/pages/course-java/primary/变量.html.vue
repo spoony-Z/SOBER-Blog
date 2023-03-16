@@ -1,4 +1,5 @@
-<template><div><h2 id="为什么需要变量" tabindex="-1"><a class="header-anchor" href="#为什么需要变量" aria-hidden="true">#</a> 为什么需要变量</h2>
+<template><div><h1 id="java-变量" tabindex="-1"><a class="header-anchor" href="#java-变量" aria-hidden="true">#</a> Java 变量</h1>
+<h2 id="为什么需要变量" tabindex="-1"><a class="header-anchor" href="#为什么需要变量" aria-hidden="true">#</a> 为什么需要变量</h2>
 <h3 id="变量是程序的基本组成单位" tabindex="-1"><a class="header-anchor" href="#变量是程序的基本组成单位" aria-hidden="true">#</a> 变量是程序的基本组成单位</h3>
 <p>​	不论是使用那种高级程序语言编写，变量都是其程序的基本组成单位</p>
 <p><strong>例如</strong>：</p>

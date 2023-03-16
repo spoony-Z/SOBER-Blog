@@ -1,4 +1,4 @@
-<template><div><h2 id="dos介绍" tabindex="-1"><a class="header-anchor" href="#dos介绍" aria-hidden="true">#</a> DOS介<strong>绍</strong></h2>
+<template><div><h1 id="dos介绍" tabindex="-1"><a class="header-anchor" href="#dos介绍" aria-hidden="true">#</a> DOS介<strong>绍</strong></h1>
 <p><strong>DOS</strong>：Disk Operating System 磁盘操作系统</p>
 <h2 id="常用的dos命令" tabindex="-1"><a class="header-anchor" href="#常用的dos命令" aria-hidden="true">#</a> 常用的DOS命令</h2>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">dir</span>    <span class="token comment"># 无参数：查看当前所在目录的文件和文件夹</span>

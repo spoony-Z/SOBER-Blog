@@ -239,3 +239,17 @@ for(int i = 0; i < arr.length; i++){
 int[][] arr = {{1,2,3}, {1,2,3}, {1,2,3}, {1,2,3}} // 嵌套数组
 ```
 
+
+
+
+<style scoped>
+/deep/ .line-numbers-mode pre {
+  margin-left: 0 !important;
+}
+/deep/ .line-numbers-mode .line-numbers {
+  display: none !important;
+}
+/deep/ .line-numbers-mode::after {
+  display: none !important;
+}
+</style>
