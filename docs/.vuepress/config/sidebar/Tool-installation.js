@@ -9,6 +9,10 @@ export default {
             {
                 link: '/Tool-installation/IDEA安装.md',
                 text: 'IDEA的安装',
+            },
+            {
+                link: '/Tool-installation/IDEA的使用.md',
+                text: 'IDEA的使用',
             }
         ],
     }, ],

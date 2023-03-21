@@ -50,6 +50,7 @@ export default defineUserConfig({
                 children: [
                     { text: 'MySql安装', link: '/Tool-installation/MySql安装教程.md' },
                     { text: 'IDEA安装', link: '/Tool-installation/IDEA安装.md' },
+                    { text: 'IDEA的使用', link: '/Tool-installation/IDEA的使用.md' },
                 ],
             },
             {
