@@ -1,1 +1,0 @@
-import{_ as t,p as a,q as _,R as e,t as c}from"./framework-204010b2.js";const r={},s=e("h1",{id:"暂无-vue2-初级教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#暂无-vue2-初级教程","aria-hidden":"true"},"#"),c(" 暂无 vue2 初级教程")],-1),o=[s];function n(d,i){return a(),_("div",null,o)}const h=t(r,[["render",n],["__file","vue2初级教程.html.vue"]]);export{h as default};
