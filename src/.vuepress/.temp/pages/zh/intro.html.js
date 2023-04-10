@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-858cfdd6\",\"path\":\"/zh/intro.html\",\"title\":\"介绍页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"info\",\"description\":\"介绍页 将你的个人介绍和档案放置在此处。\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/SOBER-Blog/zh/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"SOBER\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"介绍页\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"介绍页 将你的个人介绍和档案放置在此处。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2023-04-10T06:42:45.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"SOBER\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2023-04-10T06:42:45.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"介绍页\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2023-04-10T06:42:45.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"SOBER\\\",\\\"url\\\":\\\"https://github.com/spoony-Z\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1681108965000,\"updatedTime\":1681108965000,\"contributors\":[{\"name\":\"spoony_Z\",\"email\":\"shenjun_y@yeah.net\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.07,\"words\":20},\"filePathRelative\":\"zh/intro.md\",\"localizedDate\":\"2023年4月10日\",\"excerpt\":\"<h1> 介绍页</h1>\\n<p>将你的个人介绍和档案放置在此处。</p>\\n\",\"autoDesc\":true}")
+export const data = JSON.parse("{\"key\":\"v-858cfdd6\",\"path\":\"/zh/intro.html\",\"title\":\"介绍页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"info\",\"description\":\"介绍页 将你的个人介绍和档案放置在此处。\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/SOBER-Blog/zh/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"SOBER\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"介绍页\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"介绍页 将你的个人介绍和档案放置在此处。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"SOBER\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"介绍页\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"SOBER\\\",\\\"url\\\":\\\"https://github.com/spoony-Z\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.07,\"words\":20},\"filePathRelative\":\"zh/intro.md\",\"excerpt\":\"<h1> 介绍页</h1>\\n<p>将你的个人介绍和档案放置在此处。</p>\\n\",\"autoDesc\":true}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
