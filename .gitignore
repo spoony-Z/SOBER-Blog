@@ -5,9 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 tests/**/coverage/
-.vuepress/.cache/
-.vuepress/.temp/
-.vuepress/dist/
+.vuepress/.cache
+.vuepress/.temp
+.vuepress/dist
 
 
 # 编辑器目录和文件
