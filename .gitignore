@@ -1,8 +1,7 @@
 node_modules/
-.vuepress/dist/
-.vuepress/.cache/
-.vuepress/.temp/
-.vuepress/dist
+vuepress/dist/
+vuepress/.cache/
+vuepress/.temp/
 
 
 # 编辑器目录和文件

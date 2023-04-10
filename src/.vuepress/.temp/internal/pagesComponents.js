@@ -51,12 +51,12 @@ export const pagesComponents = {
   "v-2d0ad528": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0ad528" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/zh/index.html.vue")),
   // path: /zh/slides.html
   "v-269ae70f": defineAsyncComponent(() => import(/* webpackChunkName: "v-269ae70f" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/zh/slides.html.vue")),
+  // path: /zh/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html
+  "v-cce9318c": defineAsyncComponent(() => import(/* webpackChunkName: "v-cce9318c" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/zh/学习笔记.html.vue")),
   // path: /development-notes/Javascript/toLocaleString%E4%B8%8EtoString%E7%9A%84%E5%8C%BA%E5%88%AB.html
   "v-7f3f3cee": defineAsyncComponent(() => import(/* webpackChunkName: "v-7f3f3cee" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/Javascript/toLocaleString与toString的区别.html.vue")),
   // path: /development-notes/Javascript/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84some%E6%96%B9%E6%B3%95.html
   "v-3b49d4b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-3b49d4b6" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/Javascript/数组中的some方法.html.vue")),
-  // path: /development-notes/recat/recat%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95%E7%AC%AC%E4%B8%80%E7%AB%A0.html
-  "v-46f649f1": defineAsyncComponent(() => import(/* webpackChunkName: "v-46f649f1" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/recat/recat开发记录第一章.html.vue")),
   // path: /development-notes/uniapp/uniapp%20%E4%B8%8B%E4%B8%80%E9%A1%B5%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E9%A1%B5%E4%BC%A0%E5%8F%82.html
   "v-44381fd2": defineAsyncComponent(() => import(/* webpackChunkName: "v-44381fd2" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/uniapp/uniapp 下一页返回上一页传参.html.vue")),
   // path: /development-notes/uniapp/uniapp%E4%B8%AD%E8%B0%83%E8%B5%B7%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%8E%88%E6%9D%83.html
@@ -75,6 +75,8 @@ export const pagesComponents = {
   "v-71457cdb": defineAsyncComponent(() => import(/* webpackChunkName: "v-71457cdb" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/vue/在vue中使用高德地图.html.vue")),
   // path: /development-notes/vue/%E5%B0%81%E8%A3%85%E7%BB%84%E4%BB%B6%E4%BD%BF%E7%94%A8v-model%E4%BC%A0%E9%80%92%E5%80%BC.html
   "v-c48744e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-c48744e4" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/vue/封装组件使用v-model传递值.html.vue")),
+  // path: /development-notes/recat/recat%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95%E7%AC%AC%E4%B8%80%E7%AB%A0.html
+  "v-46f649f1": defineAsyncComponent(() => import(/* webpackChunkName: "v-46f649f1" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/recat/recat开发记录第一章.html.vue")),
   // path: /learning-notes/java/intro.html
   "v-44271714": defineAsyncComponent(() => import(/* webpackChunkName: "v-44271714" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/learning-notes/java/intro.html.vue")),
   // path: /learning-notes/java/sumUp.html
@@ -117,12 +119,12 @@ export const pagesComponents = {
   "v-3e61ee1e": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e61ee1e" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/vue-template-list/index.html.vue")),
   // path: /development-notes/Javascript/
   "v-488324ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-488324ee" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/Javascript/index.html.vue")),
-  // path: /development-notes/recat/
-  "v-c98a53b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-c98a53b6" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/recat/index.html.vue")),
   // path: /development-notes/uniapp/
   "v-7a82c3e5": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a82c3e5" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/uniapp/index.html.vue")),
   // path: /development-notes/vue/
   "v-a77c6ffc": defineAsyncComponent(() => import(/* webpackChunkName: "v-a77c6ffc" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/vue/index.html.vue")),
+  // path: /development-notes/recat/
+  "v-c98a53b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-c98a53b6" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/development-notes/recat/index.html.vue")),
   // path: /learning-notes/java/
   "v-2619446e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2619446e" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/learning-notes/java/index.html.vue")),
   // path: /learning-notes/
@@ -147,6 +149,10 @@ export const pagesComponents = {
   "v-03d57386": defineAsyncComponent(() => import(/* webpackChunkName: "v-03d57386" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/category/使用指南/index.html.vue")),
   // path: /tag/%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/
   "v-a378ad66": defineAsyncComponent(() => import(/* webpackChunkName: "v-a378ad66" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/tag/页面配置/index.html.vue")),
+  // path: /category/%E7%AC%94%E8%AE%B0/
+  "v-49425445": defineAsyncComponent(() => import(/* webpackChunkName: "v-49425445" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/category/笔记/index.html.vue")),
   // path: /tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/
   "v-7b167472": defineAsyncComponent(() => import(/* webpackChunkName: "v-7b167472" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/tag/使用指南/index.html.vue")),
+  // path: /tag/ppt/
+  "v-b30870ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-b30870ee" */"C:/Users/admin/Desktop/my-docs/新建文件夹/src/.vuepress/.temp/pages/tag/ppt/index.html.vue")),
 }

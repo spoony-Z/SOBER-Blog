@@ -99,7 +99,15 @@ export const zhNavbar = navbar([
         ],
       },
     ]
-    }
+    },
+
+    {
+      text: "PPT笔记",
+      icon: "edit",
+      link: "/zh/学习笔记"
+      }
+
+    
   // {
   //   text: "gitHub",
   //   icon: "note",
