@@ -1,1 +1,0 @@
-import{_ as t,p as s,q as n,R as e}from"./framework-204010b2.js";const c="/SOBER-Blog/assets/!!!!!-282a3756.png",o={},_=e("div",{style:{"text-align":"center"}},[e("img",{src:c})],-1),r=[_];function a(i,l){return s(),n("div",null,r)}const m=t(o,[["render",a],["__file","index.html.vue"]]);export{m as default};
